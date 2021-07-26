@@ -1,0 +1,14 @@
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <h1>Basic header, no alpine TS version</h1>
+
+    <h1 x-data="{ message: 'I ❤️ Alpine' }" x-text="message"></h1>
+    <div x-data x-text="$store.person.title"></div>  
+    <div x-data x-text="$store.person.name"></div>  
+    
+</body>
+</html>

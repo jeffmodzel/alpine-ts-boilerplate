@@ -1,0 +1,25 @@
+{
+  "name": "alpine-ts-boilerplate",
+  "version": "1.0.0",
+  "description": "Alpine.js with TypeScript and esbuild",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "build": "tsc && node ./es-build.js && cp ./static/* ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffmodzel/alpine-ts-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeffmodzel/alpine-ts-boilerplate/issues"
+  },
+  "homepage": "https://github.com/jeffmodzel/alpine-ts-boilerplate#readme",
+  "dependencies": {
+    "alpinejs": "^3.2.2",
+    "esbuild": "^0.12.16",
+    "typescript": "^4.3.5"
+  }
+}
