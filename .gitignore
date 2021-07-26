@@ -1,3 +1,6 @@
+
+src/**/*.js
+
 # Logs
 logs
 *.log
@@ -102,5 +105,3 @@ dist
 
 # TernJS port file
 .tern-port
-
-src/**/*.js
